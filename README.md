@@ -1,6 +1,6 @@
 # DL4H_Team_30 : Reproducing Improving Clinical Outcome Predictions Using Convolution over Medical Entities with Multimodal Learning
 
-This repository contains source code for demoing our attempt at reproducing the paper [Improving Clinical Outcome Predictions Using Convolution over Medical Entities with Multimodal Learning](https://doi.org/10.1016/j.artmed.2021.102112). The notebook provided takes 3+ days to run on the full dataset. The following was done for demo purposes:
+This repository contains source code for demoing our attempt at reproducing the paper [Improving Clinical Outcome Predictions Using Convolution over Medical Entities with Multimodal Learning](https://doi.org/10.1016/j.artmed.2021.102112)[1]. The notebook provided takes 3+ days to run on the full dataset. The following was done for demo purposes:
 
 Outside the project notebook:
 1. Process all the data
@@ -27,6 +27,8 @@ pip install -r requirements.txt
 ```
 Note: this is already done in the provided notebook.
 
+CPU RAM: 13GB
+
 ### Datasets
 
 The code uses both MIMIC-III and MIMIC-Extract data.
@@ -34,7 +36,7 @@ The code uses both MIMIC-III and MIMIC-Extract data.
 ####  MIMIC-III
 To obtain access to the dataset:
 
-1. Navigate to the MIMIC-III PhysioNet page: https://physionet.org/content/mimiciii/1.4/
+1. Navigate to the MIMIC-III [1] PhysioNet page: https://physionet.org/content/mimiciii/1.4/
 2. Navigate to the "Files" section at the bottom of the page.
 3. Follow the instructions provided
 4. After getting access, repeat steps 1 and 2. All files should now be accessible for download.
@@ -49,7 +51,7 @@ Access and download the pre-processed output from Google Cloud Platform.
 2. Link your UIUC email account to your PhysioNet profile https://mimic.mit.edu/docs/gettingstarted/cloud/link/.
 2. Request access to the cloud resource for MIMIC-III as outlined in this link: https://mimic.mit.edu/docs/gettingstarted/cloud/request/.
 3. Click the access link to the Google Cloud Platform storage bucket sent via email.
-4. Navigated to the GitHub page MIMIC-Extract https://github.com/MLforHealth/MIMIC_Extract.
+4. Navigated to the GitHub page MIMIC-Extract [2] https://github.com/MLforHealth/MIMIC_Extract.
 5. Navigated to the “Pre-processed Output” section and clicked the link provided for Google Cloud Platform (referred to as gcp).
 6. Downloaded the data `all_hourly_data.zip`.
 7. Unzip each file
@@ -73,11 +75,14 @@ cd Team30ConvolutionMedicalNer
 
 5. Download/copy everything in the `embeddings` folder from https://drive.google.com/drive/folders/1IfqKghs9ztuYZfVYV_mHXAvdZ6q-J2JU to your projects `embeddings` folder.
  
-6. Open this notebook from your "DL4H Team 30 Project" folder and run all (if using google colab, a popup will appear which needs your attention to give permission to mount the notebook to your drive).
+6. Open the `DL4H_Team_30.ipynb` notebook from your `DL4H Team 30 Project` folder and run all (if using google colab, a popup will appear which needs your attention to give permission to mount the notebook to your drive).
 
 ## References
 
-[1] Johnson, A., Pollard, T., Shen, L. et al. MIMIC-III, a freely accessible critical care database. Sci Data 3, 160035 (2016). https://doi.org/10.1038/sdata.2016.35
+[1] Bardak, B., & Tan, M. (2021). Improving clinical outcome predictions using convolution over medical entities with multimodal learning. Artificial intelligence in medicine, 117, 102112. https://doi.org/10.1016/j.artmed.2021.102112 
+GitHub link: https://github.com/tanlab/ConvolutionMedicalNer
 
-[2] Shirly Wang, Matthew B. A. McDermott, Geeticka Chauhan, Michael C. Hughes, Tristan Naumann, and Marzyeh Ghassemi. MIMIC-Extract: A Data Extraction, Preprocessing, and Representation Pipeline for MIMIC-III. arXiv:1907.08322. https://arxiv.org/pdf/1907.08322.pdf
+[2] Johnson, A., Pollard, T., Shen, L. et al. MIMIC-III, a freely accessible critical care database. Sci Data 3, 160035 (2016). https://doi.org/10.1038/sdata.2016.35
+
+[3] Shirly Wang, Matthew B. A. McDermott, Geeticka Chauhan, Michael C. Hughes, Tristan Naumann, and Marzyeh Ghassemi. MIMIC-Extract: A Data Extraction, Preprocessing, and Representation Pipeline for MIMIC-III. arXiv:1907.08322. https://arxiv.org/pdf/1907.08322.pdf
 

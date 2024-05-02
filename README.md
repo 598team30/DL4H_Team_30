@@ -67,9 +67,11 @@ cd Team30ConvolutionMedicalNer
 
    b. If running locally, make sure you have at least 13GB RAM otherwise this will not run. This notebook also installs required packages and their versions under environments > install packages. You may want to run this in a virtual environment.
    
-3. Upload/copy the ADMISSIONS.csv, NOTEEVENTS.csv, ICUSTAYS.csv files into the data folder.
+3. Upload/copy the `ADMISSIONS.csv`, `NOTEEVENTS.csv`, `ICUSTAYS.csv` files into the data folder.
    
-4. Upload/copy `all_hourly_data.h5` to the data folder.
+4. Upload/copy `all_hourly_data.h5` to the `data` folder.
+
+5. Download/copy everything in the `embeddings` folder from https://drive.google.com/drive/folders/1IfqKghs9ztuYZfVYV_mHXAvdZ6q-J2JU to your projects `embeddings` folder.
  
 6. Open this notebook from your "DL4H Team 30 Project" folder and run all (if using google colab, a popup will appear which needs your attention to give permission to mount the notebook to your drive).
 

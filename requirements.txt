@@ -7,4 +7,5 @@ pandas==2.0.3
 protobuf==3.20.3
 scikit_learn==1.2.2
 tensorflow==2.15.0
+ipython==7.34.0
 https://huggingface.co/kormilitzin/en_core_med7_lg/resolve/main/en_core_med7_lg-any-py3-none-any.whl

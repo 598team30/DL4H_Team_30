@@ -20,6 +20,8 @@ The notebook provides had been set up to run both locally and in Google Colab th
 ### Software
 
 Python version: 3.10.12
+CPU RAM: 13GB (24GB if running full dataset)
+Disk: 60GB
 
 To install packages: 
 ```setup
@@ -27,7 +29,7 @@ pip install -r requirements.txt
 ```
 Note: this is already done in the provided notebook.
 
-CPU RAM: 13GB
+
 
 ### Datasets
 

@@ -36,7 +36,7 @@ The code uses both MIMIC-III and MIMIC-Extract data.
 ####  MIMIC-III
 To obtain access to the dataset:
 
-1. Navigate to the MIMIC-III [1] PhysioNet page: https://physionet.org/content/mimiciii/1.4/
+1. Navigate to the MIMIC-III [2] PhysioNet page: https://physionet.org/content/mimiciii/1.4/
 2. Navigate to the "Files" section at the bottom of the page.
 3. Follow the instructions provided
 4. After getting access, repeat steps 1 and 2. All files should now be accessible for download.
@@ -51,7 +51,7 @@ Access and download the pre-processed output from Google Cloud Platform.
 2. Link your UIUC email account to your PhysioNet profile https://mimic.mit.edu/docs/gettingstarted/cloud/link/.
 2. Request access to the cloud resource for MIMIC-III as outlined in this link: https://mimic.mit.edu/docs/gettingstarted/cloud/request/.
 3. Click the access link to the Google Cloud Platform storage bucket sent via email.
-4. Navigated to the GitHub page MIMIC-Extract [2] https://github.com/MLforHealth/MIMIC_Extract.
+4. Navigated to the GitHub page MIMIC-Extract [3] https://github.com/MLforHealth/MIMIC_Extract.
 5. Navigated to the “Pre-processed Output” section and clicked the link provided for Google Cloud Platform (referred to as gcp).
 6. Downloaded the data `all_hourly_data.zip`.
 7. Unzip each file
@@ -73,7 +73,7 @@ cd Team30ConvolutionMedicalNer
    
 4. Upload/copy `all_hourly_data.h5` to the `data` folder.
 
-5. Download/copy everything in the `embeddings` folder from https://drive.google.com/drive/folders/1IfqKghs9ztuYZfVYV_mHXAvdZ6q-J2JU to your projects `embeddings` folder.
+5. Copy everything in the `embeddings` folder from https://drive.google.com/drive/folders/1IfqKghs9ztuYZfVYV_mHXAvdZ6q-J2JU to your projects `embeddings` folder.
  
 6. Open the `DL4H_Team_30.ipynb` notebook from your `DL4H Team 30 Project` folder and run all (if using google colab, a popup will appear which needs your attention to give permission to mount the notebook to your drive).
 

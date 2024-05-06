@@ -1,0 +1,29 @@
+Task,Model,Embedding,AUC,AUPRC,F1
+mort_hosp,Proposed (Reported),word2vec,87.55,55.87,47.23
+mort_hosp,Proposed (Reported),fasttext,87.15,55.68,46.87
+mort_hosp,Proposed (Reported),concat,86.98,55.35,46.38
+mort_icu,Proposed (Reported),word2vec,88.35,49.23,43.02
+mort_icu,Proposed (Reported),fasttext,87.85,48.78,43.09
+mort_icu,Proposed (Reported),concat,87.66,48.74,42.24
+los_3,Proposed (Reported),word2vec,69.54,62.68,55.82
+los_3,Proposed (Reported),fasttext,69.64,62.55,55.87
+los_3,Proposed (Reported),concat,69.93,62.77,55.82
+los_7,Proposed (Reported),word2vec,72.55,18.78,1.58
+los_7,Proposed (Reported),fasttext,71.81,18.01,1.08
+los_7,Proposed (Reported),concat,71.92,18.25,1.38
+mort_hosp,Time Series (Reported),,85.04,54.15,42.29
+mort_icu,Time Series (Reported),,86.32,46.51,36.3
+los_3,Time Series (Reported),,67.4,60.17,53.36
+los_7,Time Series (Reported),,70.54,16.35,2.33
+mort_hosp,No Convolution (Reported),word2vec,86.42,54.22,45.42
+mort_hosp,No Convolution (Reported),fasttext,86.09,54.47,45.5
+mort_hosp,No Convolution (Reported),concat,85.98,54.19,45.66
+mort_icu,No Convolution (Reported),word2vec,87.17,48.47,42.3
+mort_icu,No Convolution (Reported),fasttext,87.14,48.36,42.91
+mort_icu,No Convolution (Reported),concat,86.9,48.28,40.76
+los_3,No Convolution (Reported),word2vec,68.63,61.81,54.19
+los_3,No Convolution (Reported),fasttext,68.55,61.59,54.46
+los_3,No Convolution (Reported),concat,68.61,61.69,54.7
+los_7,No Convolution (Reported),word2vec,71.59,17.91,1.35
+los_7,No Convolution (Reported),fasttext,71.31,17.57,1.02
+los_7,No Convolution (Reported),concat,71.59,17.67,1.37

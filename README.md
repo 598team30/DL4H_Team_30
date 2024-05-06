@@ -20,7 +20,9 @@ The notebook provides had been set up to run both locally and in Google Colab th
 ### Software
 
 Python version: 3.10.12
-CPU RAM: 13GB (24GB if running full dataset)
+
+CPU RAM: 13GB (24GB if running full dataset, which will take 3+ days)
+
 Disk: 60GB
 
 To install packages: 
@@ -39,37 +41,35 @@ The code uses both MIMIC-III and MIMIC-Extract data.
 To obtain access to the dataset:
 
 1. Navigate to the MIMIC-III [2] PhysioNet page: https://physionet.org/content/mimiciii/1.4/
-2. Navigate to the "Files" section at the bottom of the page.
-3. Follow the instructions provided
+2. Navigate to the `Files` section at the bottom of the page.
+3. Follow the instructions provided.
 4. After getting access, repeat steps 1 and 2. All files should now be accessible for download.
 5. Download `ADMISSIONS.csv.gz`, `ICUSTAYS.csv.gz` and `NOTEEVENTS.csv.gz`.
-6. Unzip each file
+6. Unzip each file.
 
 ####  MIMIC-Extract
 To obtain access to the dataset:
 
 Access and download the pre-processed output from Google Cloud Platform.
 1. Get access to MIMIC-III as outlined above
-2. Link your UIUC email account to your PhysioNet profile https://mimic.mit.edu/docs/gettingstarted/cloud/link/.
+2. Link your email account to your PhysioNet profile https://mimic.mit.edu/docs/gettingstarted/cloud/link/.
 2. Request access to the cloud resource for MIMIC-III as outlined in this link: https://mimic.mit.edu/docs/gettingstarted/cloud/request/.
 3. Click the access link to the Google Cloud Platform storage bucket sent via email.
-4. Navigated to the GitHub page MIMIC-Extract [3] https://github.com/MLforHealth/MIMIC_Extract.
-5. Navigated to the “Pre-processed Output” section and clicked the link provided for Google Cloud Platform (referred to as gcp).
-6. Downloaded the data `all_hourly_data.zip`.
+4. Navigate to the GitHub page MIMIC-Extract [3] https://github.com/MLforHealth/MIMIC_Extract.
+5. Navigate to the “Pre-processed Output” section and clicked the link provided for Google Cloud Platform (referred to as gcp).
+6. Download the data `all_hourly_data.zip`.
 7. Unzip each file
-
-NOTE: Data access instructions are also contained in the notebook under the Data sub-section under Methodology.
 
 ## Usage
 
 1. Clone the code to local.   
 ```
 https://github.com/598team30/DL4H_Team_30.git
-cd Team30ConvolutionMedicalNer
+cd Team30_ConvolutionMedicalNer
 ```
 2. a. If using google colab: Upload folder to your Colab Notebooks folder (/My Drive/Colab Notebooks), be sure to keep the folder name "DL4H Team 30 Project".
 
-   b. If running locally, make sure you have at least 13GB RAM otherwise this will not run. This notebook also installs required packages and their versions under environments > install packages. You may want to run this in a virtual environment.
+   b. If running locally, make sure you meet the RAM requirements. This notebook also installs required packages and their versions under environments > install packages. You may want to run this in a virtual environment.
    
 3. Upload/copy the `ADMISSIONS.csv`, `NOTEEVENTS.csv`, `ICUSTAYS.csv` files into the data folder.
    

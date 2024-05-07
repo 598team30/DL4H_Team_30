@@ -1,17 +1,19 @@
 # DL4H_Team_30 : Reproducing Improving Clinical Outcome Predictions Using Convolution over Medical Entities with Multimodal Learning
 
-This repository contains source code for demoing our attempt at reproducing the paper [Improving Clinical Outcome Predictions Using Convolution over Medical Entities with Multimodal Learning](https://doi.org/10.1016/j.artmed.2021.102112)[1]. The notebook provided takes 3+ days to run on the full dataset. The following was done for demo purposes:
+This repository contains source code for demoing our attempt at reproducing the paper [Improving Clinical Outcome Predictions Using Convolution over Medical Entities with Multimodal Learning](https://doi.org/10.1016/j.artmed.2021.102112)[1]. 
 
-Outside the project notebook:
-1. Process all the data
-2. Train the models (experiments and ablations) on the full dataset
-3. Save all experiement results and pretrained models
+The notebook provided `DL4H_Team_30.ipynb` is for demo purposes, only using a subset of the data (it takes 3+ days to run on the full dataset). The following was done:
 
-Inside the project notebook:
+Outside `DL4H_Team_30.ipynb`:
+1. Processed all the data
+2. Trained the models (experiments and ablations) on the full dataset, see `all_models.ipynb`
+3. Saved all experiement results and pretrained models (from the 10th iteration)
+
+Inside `DL4H_Team_30.ipynb`:
 1. Use a subset of the data to demonstrate that the processing steps run with no errors.
 2. Run the main models on this subset with a few epochs to demonstrate that model code runs.
 3. Load the pretrained main models and processed testing data to use for validation in the results section. (the models are saved in the results folder, but the code to load and test them is commented out as it needs the processed testing data which takes about 1 day to process, the purpose was to show the results from the full model.)
-4. All other experiment and ablation results are loaded, summarized and discussed
+4. All other experiment and ablation results are loaded, summarized and discussed under Results section
 
 The notebook provides had been set up to run both locally and in Google Colab through mounting notebook to Google Drive.
 
